@@ -14,7 +14,7 @@ function App() {
         <Navbar/>
       </div>
       <Routes>
-        <Route path="https://iaditya02.github.io/Shopping-App" element={<Home/>} />
+        <Route path="/Shopping-App" element={<Home/>} />
         <Route path="/cart" element={<Cart/>} />
       </Routes> 
     </div>
